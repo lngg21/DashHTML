@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #9BB0E5;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.header nav {
+    display: flex; 
+    align-items: center;
+}
+
+.titulo {
+    flex: 1;
+}
+
+.logo img {
+    width: 100px;
+    max-height: 50px; 
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto; 
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+select, input[type="checkbox"], input[type="file"], button {
+    width: 100%; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    transition: background-color 0.3s ease;
+}
+
+select:hover, input[type="checkbox"]:hover, input[type="file"]:hover, button:hover {
+    background-color: #e0e0e0;
+}
+
+select:focus, input[type="checkbox"]:focus, input[type="file"]:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
